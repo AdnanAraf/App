@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Scheherazade New', serif;
+}
+body {
+    background-color:gray;
+}
+.MyQuizApp {
+width: 320px;
+height: 580px;
+position: absolute;
+left:40%;
+top:4%;
+background-color:black;
+box-shadow: 0 0 10px black , 0 0 10px black;
+border-radius: 48px;
+
+}
+
+.text1 {
+    width: 90%;
+    margin:auto;
+    color:white;
+}
+.text1 h3 {
+    margin-top: 20px;
+    color:white;
+}
+
+
+.MyBtn {
+    width: 60%;
+    margin-top: -17px;
+    margin-left:187px  ;
+}
+.MyBtn button  {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: tomato;
+    color: #fff;
+    padding:6px 25px;
+    cursor: pointer;
+   margin-top: 3rem;
+   margin-left: -6rem;
+   border-radius: 10px;
+
+}
+.MyBtn button:hover {
+    background-color: rgb(29, 194, 194); 
+}
+
